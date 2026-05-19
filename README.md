@@ -1,36 +1,140 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ApplyFlow – Full-Stack Job Application Tracking System
 
-## Getting Started
+A modern full-stack job application tracking platform built with Next.js App Router, Clerk authentication, Prisma ORM, and Supabase PostgreSQL.  
+The application helps users efficiently manage job applications, track statuses, and organize their job search workflow through a clean and responsive dashboard.
 
-First, run the development server:
+---
+
+## 🚀 Features
+
+- 🔐 Secure authentication and user management with Clerk
+- 📋 Create, update, and manage job applications
+- 📊 Track application statuses and progress
+- 🗂️ User-specific protected dashboard
+- ⚡ Server Actions with Next.js App Router
+- 🧩 Prisma ORM integration with Supabase PostgreSQL
+- 📱 Fully responsive modern UI
+- 🔄 Efficient state management and optimized performance
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js 15
+- React
+- Tailwind CSS
+
+### Backend
+- Next.js Server Actions
+- Prisma ORM
+- Supabase PostgreSQL
+
+### Authentication
+- Clerk
+
+### Deployment
+- Vercel
+
+---
+
+## 📂 Project Structure
+
+```bash
+/app
+/public
+/components
+/lib
+/prisma
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/applyflow.git
+```
+
+### 2️⃣ Navigate to the project directory
+
+```bash
+cd applyflow
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Setup environment variables
+
+Create a `.env` file in the root directory and add:
+
+```env
+DATABASE_URL=your_database_url
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
+CLERK_SECRET_KEY=your_secret
+```
+
+### 5️⃣ Run Prisma migrations
+
+```bash
+npx prisma migrate dev
+```
+
+### 6️⃣ Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌐 Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔗 Live: https://your-live-link.com
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📸 Screenshots
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Add your project screenshots here.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🧠 Key Learnings
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Full-stack architecture with Next.js App Router
+- Secure authentication workflows using Clerk
+- Database schema design with Prisma ORM
+- Server-side rendering and server actions
+- Scalable project structure and backend integration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📌 Future Improvements
+
+- AI-powered resume analysis
+- Email notifications
+- Analytics dashboard
+- Drag-and-drop Kanban board
+- Interview scheduling system
+
+---
+
+## 👨‍💻 Author
+
+Dhruv Rajput
+
+- GitHub: https://github.com/your-username
+- LinkedIn: https://linkedin.com/in/your-profile
+
+---
+
+## ⭐ Support
+
+If you found this project useful, give it a ⭐ on GitHub.
